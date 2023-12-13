@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f1f4; /* Light pink background */
+    color: #4d4d4d; /* Dark gray text color */
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    color: #e85a8f; /* Soft pink heading color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff; /* White background for list items */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+/* Floral background pattern */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('path/to/your/floral-pattern.jpg') fixed;
+    opacity: 0.1; /* Adjust the opacity to control the density of the pattern */
+    pointer-events: none;
+    z-index: -1;
+}
